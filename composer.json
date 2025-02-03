@@ -1,9 +1,14 @@
 {
-  "name": "aglipanci/laravel-eloquent-case",
+  "name": "gear4s/laravel-eloquent-case",
   "description": "Adds CASE statement support to Laravel Query Builder.",
-  "homepage": "https://github.com/aglipanci/laravel-case",
+  "homepage": "https://github.com/gear4s/laravel-eloquent-case",
   "license": "MIT",
   "authors": [
+    {
+      "name": "Aaron Marais",
+      "email": "aaron@the-marais.family",
+      "role": "Developer"
+    },
     {
       "name": "Agli Panci",
       "email": "agli.panci@gmail.com",
