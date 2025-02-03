@@ -93,7 +93,7 @@ class CaseBuilder
             $operator = $operator === '=' ? 'IS' : 'IS NOT';
 
             $this->whens[] = [
-                'query' => $this->grammar->wrapColumn($column) . ' ' . $operator . ' NULL'
+                'query' => $this->grammar->wrapColumn($column) . ' ' . $operator . ' NULL',
             ];
         } elseif ($operator) {
             $this->addBinding($operator, 'when');
@@ -104,7 +104,7 @@ class CaseBuilder
             ];
         } else {
             $this->whens[] = [
-                'query' => $column
+                'query' => $column,
             ];
         }
 
